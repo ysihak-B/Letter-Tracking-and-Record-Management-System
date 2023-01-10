@@ -1,8 +1,9 @@
-To access the authentication service 
+# To access the authentication service
+
     - method - post
     - admin register
         - url - http://localhost:8080/api/auth/admin/register
-                    - example data  
+                    - example data
                     {
                     "firstName":"Kidus",
                     "lastName":"Sintayehu",
@@ -13,7 +14,7 @@ To access the authentication service
                     }
     - login
         - url  - http://localhost:8080/api/auth/login
-                - example data 
+                - example data
                         {
                         "username":"Saint",
                         "password":"kidussintayehu60@gmail.com"
@@ -21,7 +22,7 @@ To access the authentication service
     - normal user register
         - url - http://localhost:8080/api/auth/user/register
         - headers
-            token - add admin token here like eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYmQ2Nzg4NDlmODZmYzI1YzU3NmIwMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MzM1NzYzNCwiZXhwIjoxNjczNjE2ODM0fQ.f_JTjQSND1Qh6mrgodmYA-tLcW-pInn4pWfyVFz7dHo
+        token - add admin token here like eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYmQ2Nzg4NDlmODZmYzI1YzU3NmIwMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MzM1NzYzNCwiZXhwIjoxNjczNjE2ODM0fQ.f_JTjQSND1Qh6mrgodmYA-tLcW-pInn4pWfyVFz7dHo
         - example data
                 {
                 "firstName":"Ysihak",
@@ -31,7 +32,3 @@ To access the authentication service
                 "password":"YsihakBazezew@gmail.com",
                 "phoneNumber":"0916856479"
                 }
-                            
-
-
- 
