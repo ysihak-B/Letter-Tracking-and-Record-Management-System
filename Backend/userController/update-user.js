@@ -4,7 +4,7 @@ const {
   verifyTokenAndAuthorization
 } = require('../authorization/authorization-service')
 
-router.put('/:id', verifyTokenAndAuthorization, async (req, res) => {
+router.put('/update/:id', verifyTokenAndAuthorization, async (req, res) => {
   try {
     const updatedUser = await User.findByIdAndUpdate(
       req.params.id,
