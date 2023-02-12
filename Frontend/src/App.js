@@ -1,10 +1,11 @@
-import './App.css';
+import './App.css'
+import Login from './login.js'
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Let's start!
-    </h1>
+    <div className="">
+      <Login/>
+    </div>
   );
 }
 
